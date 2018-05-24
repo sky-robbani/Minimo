@@ -1,0 +1,138 @@
+/*Global CSS*/
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ubuntu:300,400,700');
+
+body{
+    font-family: 'Playfair Display', serif;
+    line-height: 1.714;
+    color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px 0px 15p;
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.blog-meta,.blog-readmore-bt{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    
+}
+.blog-meta{
+    margin-top: 20px;
+}
+.blog-meta a{
+    color: #b4ac9f;
+    text-transform: uppercase;
+}
+/*Header Section*/
+.maim-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.maim-menu li {
+    display:  inline-block;
+    padding-left:  90px;
+}
+
+.maim-menu li a {
+    display: block;
+    color:  #626262;
+    text-transform:  uppercase;
+    font-size:  14px;
+    padding: 70px 0px;
+}
+.logo{
+    padding: 70px 0px;
+}
+
+
+/*banner section*/
+.blog-featured-content img{
+    width: 100%;
+}
+/*Blog Content Section*/
+.single-blog-item {
+    margin-bottom: 120px;
+}
+.single-blog-item h2 {
+    margin: 20px 0px 25px;
+}
+.blog-readmore-btn {
+    color:  #b4ac9f;
+}
+.blog-box-content {
+    margin-bottom: 30px;
+}
+
+/*Sign up Section*/
+.news-letter-area {
+    background: #f0f0f0;
+    padding: 70px 0;
+    margin-bottom: 120px;
+}
+.news-letter-area h2 {
+    margin-bottom: 50px;
+}
+.news-letter-form {
+    max-width: 380px;
+    margin: 0 auto;
+}
+.news-letter-form {
+    max-width: 380px;
+    margin: 0 auto;
+    border-bottom:  1px solid#000;
+    position: relative;
+}
+.news-letter-form input[type="email"] {
+    border: none;
+    background: #f0f0f0;
+    padding: 10px;
+    width:  100%;
+}
+.news-letter-form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: transparent;
+    padding: 10px;
+}
+
+/*Blog Box Section*/
+.load-more-btn-wrapper {
+    margin-bottom: 120px;
+}
+.load-more-btn{
+    display: inline-block;
+    border: 1px solid#626262;
+    color: #626262;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/*Footer Area*/
+.footer-area{
+    padding: 35px 0px;
+    background: #f0f0f0;
+}
+.footer-area a {
+    color:  #000;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding:  0;
+    list-style:  none;
+}
+.footer-area ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+.footer-area .text-right a{
+    padding-left: 15px
+}
